@@ -1,0 +1,9 @@
+.NotFound h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+h1 {
+    padding: 100px;
+}

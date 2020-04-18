@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Pagination {
+    width: 200px;
+    margin: 0;
+    margin-left: 100px;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(206, 199, 199);
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.Pagination .Page {
+    height: 50px;
+    margin: 0px;
+    flex-grow: 1;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 5px;
+    list-style: none;
+    border-right: 1px solid rgb(206, 199, 199);
+    text-align: center;
+
+}
+
+.Pagination .PageLink{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(33, 72, 92);
+}
+
+.Page:hover {
+    background-color: rgb(160, 150, 150);
+    cursor: pointer;
+}
+
+.active {
+    background: linear-gradient(60deg, #6f9fc4, #3a86d3);
+    color: white;
+}
